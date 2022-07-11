@@ -1,0 +1,71 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ *
+ */
+
+/*# sourceMappingURL=custom.css.map */
+.fa-2x {
+  font-size: 2em !important;
+}
+
+p.card-text {
+  line-height: normal;
+}
+
+.main-sidebar .sidebar-menu .addin-social li a {
+  position: unset !important;
+      /*width: unset !important;*/
+}
+
+.addin-social a {
+  width: 32px !important;
+  height: 32px !important;
+  padding: 3px 0 0 0 !important;
+  display: inline-block !important;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  background-color: #6777ef;
+  color: white !important;
+}
+
+.addin-social a svg {
+  margin-left: 2px !important;
+}
+
+.addin-social a:hover {
+  background-color: #fb160a !important;
+}
+
+textarea.form-control {
+  height: auto !important;
+}
+
+.main-sidebar{
+  overflow-y: auto;
+}
+.main-sidebar .sidebar-menu li a svg{
+  width: 28px;
+  margin-right: 20px;
+  text-align: center;
+}
+.main-sidebar .sidebar-menu li a.nuxt-link-exact-active {
+  color: #6777ef;
+  font-weight: 600;
+  background-color: #fcfcfd;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6777ef;
+}
+.main-sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.main-sidebar::-webkit-scrollbar-thumb {
+  background-color: #6777ef;
+}
