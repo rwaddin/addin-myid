@@ -40,9 +40,9 @@
       </ul>
 
       <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
-        <a href="?p=contact" class="btn btn-primary btn-lg btn-block btn-icon-split">
-          <i class="far fa-paper-plane"></i> Hire Me
-        </a>
+        <NuxtLink to="/contact" class="btn btn-primary btn-lg btn-block btn-icon-split">
+          <fa :icon="['fas','paper-plane']"/> Hire Me
+        </NuxtLink>
       </div>
     </aside>
   </div>

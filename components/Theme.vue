@@ -3,7 +3,7 @@
     <TheHeader/>
     <div class="main-content pt-0">
       <section class="section">
-        <div class="section-header text-white-all" style="background: #6777ef;">
+        <div class="section-header text-white-all">
           <h1 v-html="title"></h1>
           <!-- <div class="section-header-breadcrumb">
             <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>

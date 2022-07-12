@@ -16,7 +16,7 @@ p.card-text {
 
 .main-sidebar .sidebar-menu .addin-social li a {
   position: unset !important;
-      /*width: unset !important;*/
+  /*width: unset !important;*/
 }
 
 .addin-social a {
@@ -26,7 +26,7 @@ p.card-text {
   display: inline-block !important;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
-  background-color: #6777ef;
+  background-color: #0971c9;
   color: white !important;
 }
 
@@ -35,37 +35,62 @@ p.card-text {
 }
 
 .addin-social a:hover {
-  background-color: #fb160a !important;
+  background-color: #6da8e2 !important;
 }
 
 textarea.form-control {
   height: auto !important;
 }
 
-.main-sidebar{
+.main-sidebar {
   overflow-y: auto;
 }
-.main-sidebar .sidebar-menu li a svg{
+
+.main-sidebar .sidebar-menu li a svg {
   width: 28px;
   margin-right: 20px;
   text-align: center;
 }
+
 .main-sidebar .sidebar-menu li a.nuxt-link-exact-active {
-  color: #6777ef;
+  color: #0971c9;
   font-weight: 600;
   background-color: #fcfcfd;
 }
+
 body::-webkit-scrollbar {
   width: 5px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #6777ef;
+  background-color: #0971c9;
 }
+
 .main-sidebar::-webkit-scrollbar {
   width: 5px;
 }
 
 .main-sidebar::-webkit-scrollbar-thumb {
-  background-color: #6777ef;
+  background-color: #0971c9;
+}
+
+.main-wrapper .section .section-header {
+  background-color: #0971c9;
+}
+
+.btn-primary, .btn-primary.disabled {
+  background-color: #0971c9;
+  box-shadow: 0 2px 6px #6da8e2
+}
+
+.btn-primary:active, .btn-primary:hover, .btn-primary.disabled:active, .btn-primary.disabled:hover {
+  background-color: #6da8e2 !important;
+}
+
+a{
+  color: #0971c9;
+}
+
+.card.card-primary{
+  border-top: 2px solid #0971c9;
 }

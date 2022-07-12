@@ -1,7 +1,7 @@
 # addin.my.id
 - biru tua #0d2350
 - biru muda #0971c9
-- muda lagi : 6da8e2
+- muda lagi : #6da8e2
 - putih #fffefd
 
 ## Build Setup
