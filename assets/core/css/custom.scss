@@ -1,11 +1,6 @@
-/**
- *
- * You can write your CSS code here, DO NOT touch the default JavaScript file
- * because it will make it harder for you to update.
- *
- */
+$primary : #0971c9;
+$secondary : #6da8e2;
 
-/*# sourceMappingURL=custom.css.map */
 .fa-2x {
   font-size: 2em !important;
 }
@@ -26,7 +21,7 @@ p.card-text {
   display: inline-block !important;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
-  background-color: #0971c9;
+  background-color: $primary;
   color: white !important;
 }
 
@@ -35,7 +30,10 @@ p.card-text {
 }
 
 .addin-social a:hover {
-  background-color: #6da8e2 !important;
+  background-color: $secondary !important;
+  svg{
+    color: white;
+  }
 }
 
 textarea.form-control {
@@ -53,7 +51,7 @@ textarea.form-control {
 }
 
 .main-sidebar .sidebar-menu li a.nuxt-link-exact-active {
-  color: #0971c9;
+  color: $primary;
   font-weight: 600;
   background-color: #fcfcfd;
 }
@@ -63,7 +61,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #0971c9;
+  background-color: $primary;
 }
 
 .main-sidebar::-webkit-scrollbar {
@@ -71,28 +69,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main-sidebar::-webkit-scrollbar-thumb {
-  background-color: #0971c9;
+  background-color: $primary;
 }
 
 .main-wrapper .section .section-header {
-  background-color: #0971c9;
+  background-color: $primary;
 }
 
 .btn-primary, .btn-primary.disabled {
-  background-color: #0971c9;
-  box-shadow: 0 2px 6px #6da8e2
+  background-color: $primary;
+  box-shadow: 0 2px 6px $secondary
 }
 
 .btn-primary:active, .btn-primary:hover, .btn-primary.disabled:active, .btn-primary.disabled:hover {
-  background-color: #6da8e2 !important;
+  background-color: $secondary !important;
 }
 
 a{
-  color: #0971c9;
+  color: $primary;
 }
 
 .card.card-primary{
-  border-top: 2px solid #0971c9;
+  border-top: 2px solid $primary;
 }
 
 .profile-widget-item-value,
@@ -107,9 +105,13 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: #0971c9 !important;
+  color: $primary !important;
 }
 
 .bg-primary{
-  background-color: #0971c9 !important;
+  background-color: $primary !important;
+}
+
+.text-primary, .text-primary-all *, .text-primary-all *:before, .text-primary-all *:after{
+  color: $primary !important;
 }

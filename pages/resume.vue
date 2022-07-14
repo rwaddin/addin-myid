@@ -70,7 +70,32 @@
             <div class="card-body">
               <h4>Programming Skills</h4>
               <p>General settings such as, site title, site description, address and so on.</p>
-              <a href="features-setting-detail.html" class="card-cta">Change Setting <i class="fas fa-chevron-right"></i></a>
+
+              <h6>Basic Language</h6>
+              <div class="d-flex justify-content-around flex-wrap">
+                <span class="badge badge-primary">HTML</span>
+                <span class="badge badge-primary">CSS</span>
+                <span class="badge badge-primary">PHP</span>
+                <span class="badge badge-primary">Javascript</span>
+                <span class="badge badge-primary">SQL</span>
+              </div>
+              <br>
+              <h6>Framework</h6>
+              <div class="d-flex justify-content-center flex-wrap ">
+                <span class="m-1 badge badge-success">VueJS 2</span>
+                <span class="m-1 badge badge-warning">SCSS</span>
+                <span class="m-1 badge badge-danger">Codeigniter</span>
+                <span class="m-1 badge badge-danger">Laravel</span>
+                <span class="m-1 badge badge-warning">Lumen</span>
+                <span class="m-1 badge badge-success">Nuxt</span>
+                <span class="m-1 badge badge-primary">Bootstrap</span>
+                <span class="m-1 badge badge-danger">Materialize</span>
+              </div>
+              <h6>Extra</h6>
+              <div class="d-flex justify-content-center flex-wrap ">
+                <span class="m-1 badge badge-warning">Firebase</span>
+                <span class="m-1 badge badge-info">Docker</span>
+              </div>
             </div>
           </div>
         </div>

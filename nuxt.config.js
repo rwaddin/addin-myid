@@ -26,7 +26,7 @@ export default {
     "bootstrap",
     "~/assets/core/css/style.css",
     "~/assets/core/css/components.css",
-    "~/assets/core/css/custom.css"
+    "~/assets/core/css/custom.scss"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
