@@ -45,8 +45,10 @@ export default {
     component: 'fa',
     suffix: false,
     icons: {
-      solid: ["faUser","faChalkboardUser","faIdCardClip","faRss","faEnvelope","faBlog","faPaperPlane"],
-      brands: ["faFacebookF","faTwitter","faLinkedinIn","faGithub","faInstagram"]
+      solid: ["faUser","faChalkboardUser","faIdCardClip","faRss","faEnvelope","faBlog","faPaperPlane","faLocationDot", "faGraduationCap",
+        "faCertificate", "faBriefcase", "faCode"
+      ],
+      brands: ["faFacebookF","faTwitter","faLinkedinIn","faGithub","faInstagram","faWhatsapp"]
     }
   },
 

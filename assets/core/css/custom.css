@@ -94,3 +94,22 @@ a{
 .card.card-primary{
   border-top: 2px solid #0971c9;
 }
+
+.profile-widget-item-value,
+.profile-widget-item-value a
+{
+  color: #868e96 !important;
+}
+
+.profile-widget .profile-widget-items .profile-widget-item .profile-widget-item-label{
+  color: inherit !important;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #0971c9 !important;
+}
+
+.bg-primary{
+  background-color: #0971c9 !important;
+}

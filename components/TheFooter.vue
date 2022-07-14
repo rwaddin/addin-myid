@@ -1,10 +1,10 @@
 <template>
   <footer class="main-footer">
-    <div class="footer-right">
-      Copyright &copy; 2022 <div class="bullet"></div> Theme <a href="https://getstisla.com/">stisla</a>
+    <div class="footer-left">
+      Copyright &copy; 2022 <div class="bullet"></div>
     </div>
     <div class="footer-right">
-
+      akhul.syaifudin@gmail.com
     </div>
   </footer>
 </template>

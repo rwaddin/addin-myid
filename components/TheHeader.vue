@@ -12,14 +12,15 @@
           <img src="~/assets/avatar.png" alt="" class="img-fluid rounded-circle w-50">
         </li>
         <li class="text-center px-4 mt-3" style="line-height: normal;">
-          Hello,<br> My name is Akhul Syaifudin and I'm a Full-Stack Web Developer
+          <b><fa :icon="['fas','location-dot']"></fa> Yogyakarta, ID</b> <br>
+          Full-Stack Web Developer
         </li>
         <li class="text-center addin-social my-3">
-          <a href="#"><fa :icon="['fab','facebook-f']"/></a>
-          <a href="#"><fa :icon="['fab','twitter']"/></a>
+          <a href="https://www.fb.me/akhul.syaifudin" target="_blank"><fa :icon="['fab','facebook-f']"/></a>
+          <a href="https://twitter.com/akhulsyaifudin" target="_blank"><fa :icon="['fab','twitter']"/></a>
           <a href="#"><fa :icon="['fab','linkedin-in']"/></a>
-          <a href="#"><fa :icon="['fab','github']"/></a>
-          <a href="#"><fa :icon="['fab','instagram']"/></a>
+          <a href="https://github.com/rwaddin" target="_blank"><fa :icon="['fab','github']"/></a>
+          <a href="https://www.instagram.com/akhul.syaifudin"><fa :icon="['fab','instagram']"/></a>
         </li>
         <!-- <li class="menu-header">Dashboard</li> -->
         <li>

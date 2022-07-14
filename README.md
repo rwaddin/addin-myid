@@ -4,6 +4,9 @@
 - muda lagi : #6da8e2
 - putih #fffefd
 
+ref cv 
+- https://shift-cv.themerex.net/#graphic
+- https://lmpixels.com/demo/breezycv/light/1/index.html#portfolio
 ## Build Setup
 
 ```bash
