@@ -1,6 +1,7 @@
 <template>
   <Theme :title="title">
     <template #content>
+
       <div class="row">
         <div class="col-sm-6">
           <div class="card card-large-icons">
@@ -9,8 +10,13 @@
             </div>
             <div class="card-body">
               <h4>Education</h4>
-              <p>General settings such as, site title, site description, address and so on.</p>
-              <a href="features-setting-detail.html" class="card-cta">Change Setting <i class="fas fa-chevron-right"></i></a>
+              <div class="media">
+                <div class="media-body">
+                  <div class="float-right text-primary">2017 - 2018</div>
+                  <div class="media-title"> AMIKOM Yogyakarta University</div>
+                  <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -32,17 +38,15 @@
               <hr>
               <div class="media">
                 <div class="media-body">
-                  <div class="float-right text-primary">2018 - Present</div>
-                  <div class="media-title">JITC</div>
+                  <div class="float-right text-primary">2016 - 2018</div>
+                  <div class="media-title">Jogja IT Training Center</div>
                   <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-sm-6">
           <div class="card card-large-icons">
             <div class="card-icon bg-primary text-white">
@@ -51,14 +55,50 @@
             <div class="card-body">
               <h4>Certificates</h4>
               <p>General settings such as, site title, site description, address and so on.</p>
-              <li class="media">
-                <img class="mr-3 rounded-circle" width="50" src="assets/img/avatar/avatar-1.png" alt="avatar">
+              <div class="media">
+                <img class="mr-3" width="50" src="https://www.sololearn.com/Certificate/1014-3245392/jpg/" alt="avatar">
                 <div class="media-body">
-                  <div class="float-right text-primary">Now</div>
-                  <div class="media-title">Farhan A Mujib</div>
+                  <div class="float-right text-primary">2016</div>
+                  <div class="media-title">HTML Course - Sololearn</div>
                   <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
                 </div>
-              </li>
+              </div>
+              <hr>
+              <div class="media">
+                <img class="mr-3" width="50" src="https://www.sololearn.com/Certificate/1060-3245392/jpg/" alt="avatar">
+                <div class="media-body">
+                  <div class="float-right text-primary">26 Des 2016</div>
+                  <div class="media-title">SQL Course - Sololearn</div>
+                  <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                </div>
+              </div>
+              <hr>
+              <div class="media">
+                <img class="mr-3" width="50" src="https://www.sololearn.com/Certificate/1162-3245392/jpg/" alt="avatar">
+                <div class="media-body">
+                  <div class="float-right text-primary">15 Apr 2021</div>
+                  <div class="media-title">Responsive Web Design</div>
+                  <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                </div>
+              </div>
+              <hr>
+              <div class="media">
+                <img class="mr-3" width="50" src="https://www.sololearn.com/Certificate/1051-3245392/jpg/" alt="avatar">
+                <div class="media-body">
+                  <div class="float-right text-primary">19 Augt 2017</div>
+                  <div class="media-title">C++ Course</div>
+                  <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                </div>
+              </div>
+              <hr>
+              <div class="media">
+                <img class="mr-3" width="50" src="https://www.sololearn.com/Certificate/1024-3245392/jpg/" alt="avatar">
+                <div class="media-body">
+                  <div class="float-right text-primary">27 Apr 2017</div>
+                  <div class="media-title">JavaScript Tutorial</div>
+                  <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

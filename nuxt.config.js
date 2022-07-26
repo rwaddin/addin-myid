@@ -46,9 +46,9 @@ export default {
     suffix: false,
     icons: {
       solid: ["faUser","faChalkboardUser","faIdCardClip","faRss","faEnvelope","faBlog","faPaperPlane","faLocationDot", "faGraduationCap",
-        "faCertificate", "faBriefcase", "faCode"
+        "faCertificate", "faBriefcase", "faCode","faLaptop", "faEllipsis"
       ],
-      brands: ["faFacebookF","faTwitter","faLinkedinIn","faGithub","faInstagram","faWhatsapp"]
+      brands: ["faFacebookF","faTwitter","faLinkedinIn","faGithub","faInstagram","faWhatsapp", "faWordpress","faVuejs"]
     }
   },
 

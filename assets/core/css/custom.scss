@@ -1,5 +1,6 @@
 $primary : #0971c9;
 $secondary : #6da8e2;
+$text-primary : #868e96;
 
 .fa-2x {
   font-size: 2em !important;
@@ -96,7 +97,7 @@ a{
 .profile-widget-item-value,
 .profile-widget-item-value a
 {
-  color: #868e96 !important;
+  color: $text-primary !important;
 }
 
 .profile-widget .profile-widget-items .profile-widget-item .profile-widget-item-label{

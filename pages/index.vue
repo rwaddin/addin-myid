@@ -36,9 +36,9 @@
                   Full-stack Web Developer
                 </div>
               </div>
-              Ujang maman is a superhero name in <b>Indonesia</b>, especially in my family. He is not a fictional
-              character but an original hero in my family, a hero for his children and for his wife. So, I use the name
-              as a user in this template. Not a tribute, I'm just bored with <b>'John Doe'</b>.
+              I am a Full-stack <b>Web Developer</b> specialised in frontend and backend development for complex scalable web apps. I have working as web developer since 2014.
+                Experience building application for clients all over the world.
+
             </div>
             <div class="card-footer text-center">
               <div class="font-weight-bold mb-2">Follow Me On</div>
@@ -52,55 +52,47 @@
             </div>
           </div>
         </div>
-      </div>
-
-
-      <div class="card">
-        <!-- <div class="card-header">
-          Akhu
-        </div> -->
-        <div class="card-body">
-          <div class="row">
-            <div class="col col-sm-9">
-              <h1>Akhul Syaifudin</h1>
-              <h6>Full-stack Developer</h6>
-              <p>
-                I'm a Full-stack Web Developer specialised in frontend and backend development for complex scalable web
-                apps.</p>
-              <p>I write my development experience on my blog.</p>
-              <p>Want to know how I may help your project? Check out my <a href="">project portfolio</a> and <a href="">online
-                resume</a>.
-              </p>
-
-              <button class="btn btn-warning">
-                <fa :icon="['fas','chalkboard-user']"/>
-                View Portofolio
-              </button>
-              <button class="btn btn-success">
-                <fa :icon="['fas','id-card-clip']"/>
-                View Resume
-              </button>
+        <div class="col-sm-4">
+          <div class="card ">
+            <div class="card-header">
+              <h4>What i do?</h4>
             </div>
-            <div class="col col-sm-3">
-              <img src="~/assets/avatar.png" alt="" class="img-fluid img-thumbnail">
+            <div class="card-body ">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card shadow-sm">
+                    <div class="card-body text-center pb-0 px-0">
+                      <fa :icon="['fab', 'wordpress']" size="2x"/>
+                      <p>Wordpress theme</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card shadow-sm">
+                    <div class="card-body text-center pb-0 px-0">
+                      <fa :icon="['fas', 'laptop']" size="2x"/>
+                      <p>Web apps</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card shadow-sm">
+                    <div class="card-body text-center pb-0 px-0">
+                      <fa :icon="['fab', 'vuejs']" size="2x"/>
+                      <p>Maintenance System</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card shadow-sm">
+                    <div class="card-body text-center pb-0 px-0">
+                      <fa :icon="['fas', 'ellipsis']" size="2x"/>
+                      <p>Other</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
-          <h4>What I Do</h4>
-        </div>
-        <div class="card-body">
-          <p>I have working as web developer since 2014. Experience building application for clients all over the world.
-            Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more
-            about my experience? Check out my <a href="">online resume</a> and <a href="">project portfolio</a>.</p>
-          <div class="row">
-            <div class="col-sm-3">a</div>
-            <div class="col-sm-3">b</div>
-            <div class="col-sm-3">c</div>
-            <div class="col-sm-3">d</div>
           </div>
         </div>
       </div>
