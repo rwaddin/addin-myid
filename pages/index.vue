@@ -6,7 +6,7 @@
           <div class="card profile-widget">
             <div class="profile-widget-header">
               <img alt="image" src="~/assets/avatar.png" class="rounded-circle profile-widget-picture">
-              <div class="profile-widget-items">
+              <div class="profile-widget-items flex-column flex-sm-row">
                 <div class="profile-widget-item">
                   <div class="profile-widget-item-label">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

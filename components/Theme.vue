@@ -10,7 +10,14 @@
             <div class="breadcrumb-item"><a href="#">Bootstrap Components</a></div>
             <div class="breadcrumb-item">Breadcrumb</div>
           </div>-->
-          <a href=""><fa :icon="['fas','blog']"/></a>
+          <span @click="toggle" class="d-sm-none d-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="18" x2="20" y2="18"></line>
+            </svg>
+          </span>
         </div>
         <div class="section-body">
           <slot name="content"></slot>
@@ -27,6 +34,16 @@ export default {
   props: {
     title: {
       default: "Page"
+    }
+  },
+  methods:{
+    toggle(){
+      this.$store.commit("utils/toggle", true);
+    }
+  },
+  computed:{
+    isOpen(){
+      return this.$store.state.utils.sidebarIsOpen;
     }
   }
 }

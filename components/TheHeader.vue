@@ -1,5 +1,5 @@
 <template>
-  <div class="main-sidebar sidebar-style-2">
+  <div class="main-sidebar sidebar-style-2" :class="isOpen ? '' :'d-none'">
     <aside id="sidebar-wrapper">
       <div class="sidebar-brand">
         <a href="/">addin.my.id</a>
@@ -58,6 +58,15 @@
 
 <script>
 export default {
-  name: "TheHeader"
+  name: "TheHeader",
+  computed:{
+    isOpen(){
+      console.warn(window.innerWidth);
+      if (window.innerWidth > 576){
+        return true;
+      }
+      return this.$store.state.utils.sidebarIsOpen;
+    }
+  }
 }
 </script>
