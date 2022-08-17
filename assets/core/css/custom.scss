@@ -1,6 +1,8 @@
-$primary : #0971c9;
-$secondary : #6da8e2;
-$text-primary : #868e96;
+:root{
+  --primary : #3498db;
+  --secondary: #6da8e2;
+  --text-primary: #868e96;
+}
 
 .fa-2x {
   font-size: 2em !important;
@@ -22,7 +24,7 @@ p.card-text {
   display: inline-block !important;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
-  background-color: $primary;
+  background-color: var(--primary);
   color: white !important;
 }
 
@@ -31,7 +33,7 @@ p.card-text {
 }
 
 .addin-social a:hover {
-  background-color: $secondary !important;
+  background-color: var(--secondary) !important;
   svg{
     color: white;
   }
@@ -52,7 +54,7 @@ textarea.form-control {
 }
 
 .main-sidebar .sidebar-menu li a.nuxt-link-exact-active {
-  color: $primary;
+  color: var(--primary);
   font-weight: 600;
   background-color: #fcfcfd;
 }
@@ -62,42 +64,43 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: $primary;
+  background-color: var(--primary);
 }
 
 .main-sidebar::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
 }
 
 .main-sidebar::-webkit-scrollbar-thumb {
-  background-color: $primary;
+  background-color: var(--secondary);
 }
 
 .main-wrapper .section .section-header {
-  background-color: $primary;
+  background-color: var(--primary);
 }
 
 .btn-primary, .btn-primary.disabled {
-  background-color: $primary;
-  box-shadow: 0 2px 6px $secondary
+  background-color: var(--primary);
+  box-shadow: 0 2px 6px var(--secondary);
+  border-color: transparent !important;
 }
 
 .btn-primary:active, .btn-primary:hover, .btn-primary.disabled:active, .btn-primary.disabled:hover {
-  background-color: $secondary !important;
+  background-color: var(--secondary) !important;
 }
 
 a{
-  color: $primary;
+  color: var(--primary);
 }
 
 .card.card-primary{
-  border-top: 2px solid $primary;
+  border-top: 2px solid var(--primary);
 }
 
 .profile-widget-item-value,
 .profile-widget-item-value a
 {
-  color: $text-primary !important;
+  color: var(--text-primary) !important;
 }
 
 .profile-widget .profile-widget-items .profile-widget-item .profile-widget-item-label{
@@ -106,13 +109,13 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: $primary !important;
+  color: var(--primary) !important;
 }
 
 .bg-primary{
-  background-color: $primary !important;
+  background-color: var(--primary) !important;
 }
 
 .text-primary, .text-primary-all *, .text-primary-all *:before, .text-primary-all *:after{
-  color: $primary !important;
+  color: var(--primary) !important;
 }

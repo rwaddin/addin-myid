@@ -1,10 +1,10 @@
 <template>
   <footer class="main-footer">
-    <div class="footer-left">
-      Copyright &copy; 2022 <div class="bullet"></div>
-    </div>
+<!--    <div class="footer-left">-->
+<!--      Copyright &copy; 2022-->
+<!--    </div>-->
     <div class="footer-right">
-      akhul.syaifudin@gmail.com
+      Copyright &copy; 2022
     </div>
   </footer>
 </template>
